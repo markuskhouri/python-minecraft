@@ -45,6 +45,10 @@ contents of the python-minecraft repository.
 
 #. Install and configure the essentials::
 
+     apt-get install python-dev
+     apt-get install libffi-dev
+     apt-get install libssl-dev
+
      apt-get install git-core
 
      git config --global user.name "Your Name"
