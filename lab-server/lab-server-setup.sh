@@ -53,6 +53,11 @@ apt-get -y install apg haveged python-pip
 
 
 # ----------------------------------------------------------------------------
+# Install vagrant.
+apt-get -y install vagrant
+
+
+# ----------------------------------------------------------------------------
 # Install Docker
 
 apt-get -y install lxc-docker
