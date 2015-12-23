@@ -59,6 +59,13 @@ apt-get -y install lxc-docker
 
 
 # ----------------------------------------------------------------------------
+# Install the development libraries.
+# These are used for building the Lab Server Controller
+
+apt-get -y install python-dev libffi-dev libssl-dev
+
+
+# ----------------------------------------------------------------------------
 # Install the Lab Server Controller
 
 cd /vagrant/controller
