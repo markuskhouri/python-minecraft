@@ -165,6 +165,8 @@ that the config file is present. It validates that the information in
 the config file allows it to reach the Control Sheet used to manage
 the student instances.
 
+Currently (12/22/2015), based on the master branch of python-minecraft/lab-server/controller/lsc/commands/environment.py, 
+the :command:`lsc test` command simply performs a directory listing of the current directory.
 
 Control Sheet Commands
 ~~~~~~~~~~~~~~~~~~~~~~
